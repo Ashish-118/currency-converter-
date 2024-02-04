@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color:#71B48D; */
+    /* background-color:#A167A5; */
+    background-color:#D3BCCC;
+}
+
+.font_baloo{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.font_bree{
+    font-family: 'Bree Serif', serif;
+}
+
+.font_n{
+    font-family: 'Nunito', sans-serif;
+    font-weight:600;
+}
+.font_p{
+    font-family: 'Prompt', sans-serif;
+}
+
+#main{
+
+    display: flex;
+    flex-direction: column;
+   height: 100vh;
+   width: auto;
+
+   align-items: center;
+   
+}
+
+.submain{
+    
+    padding: 20px;
+    border-radius: 18px;
+    background-color: white;
+    margin: auto;
+}
+
+#func{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+#from{
+    margin: 15px 61px 23px 0px;
+ 
+
+}
+
+#to{
+    margin: 15px 0px 23px 83px;
+  
+}
+.ftform{
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 8px;
+    width: 110px;
+    padding: 0px 6px;
+    
+
+}
+
+h3{
+    font-size: 1.8rem;
+    margin: 5px 0px;
+    font-weight: bolder;
+    margin-bottom: 43px;
+    /* text-align: center; */
+}
+
+#formid{
+    margin:20px 0px;
+
+}
+p{
+font-size: 1.2rem;
+}
+
+input,button{
+width: 400px;
+
+border-style: none;
+border-radius: 10px;
+border: 2px solid grey;
+}
+
+input{
+    padding: 0px 5px;
+    font-size: 1.3rem;
+    height: 46px;
+   
+}
+
+button{
+    /* background-color: #5E4AE3; */
+    background-color: #CB04A5;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 17px;
+    height: 52px;
+}
+img{
+
+    width: 50px;
+    height: 50px;
+}
+
+select{
+    border-style: none;
+    width: 66px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Prompt';
+    
+}
+
+i{
+    font-size: 1.8rem;
+    margin-top: 42px;
+}
+
+option{
+    
+    background-color: #8B8C89;
+    color: white;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+#rev{
+    width: 26px;
+    height: 26px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 54px;
+}
+
+.result{
+    font-size: 1.2rem;
+}
+
